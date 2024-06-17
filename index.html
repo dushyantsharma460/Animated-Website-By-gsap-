@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokemon Website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/d3102a8c95.js" crossorigin="anonymous"></script>
+    <link rel="shortcut icon" href="./Source/Favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+</head>
+<body>
+    <div id="loader">
+        <ul>
+            <li>Hello</li>
+            <li>नमस्ते</li>
+            <li>Bonjour</li>
+            <li>こんにちは</li>
+            <li>Hola</li>
+            <li>হ্যালো</li>
+            <li>مرحباً</li>
+            <li>你好</li>
+            <li>안녕하세요</li>
+            <li>Olá</li>
+        </ul>
+    </div>
+    <div id="nav">
+        <img src="./Source/Logo.png">
+        <h4>Home</h4>
+        <h4>Character</h4>
+        <h4>Gym Batches</h4>
+        <h4>Pokemon Type</h4>
+        <h4>Leagues</h4>
+    </div>
+    <div id="cursor"></div>
+    <div id="cursor-blur"></div>
+    <video src="./Source/d8cf4eb0b58c2c22ec359bf2b3c8c325.mp4" autoplay loop muted></video>
+    <div id="main">
+        <div id="page1">
+            <h1>START. ADVENTURE. </h1>
+            <h2>WELCOME TO MY WEBSITE !</h2>
+            <p>Evolving Pokémon makes them stronger and often gives them a wider movepool. Several species of Pokémon are only obtainable through evolution. </p>
+            <div id="arrow">
+                <i class="fa-solid fa-arrow-down-long"></i>
+            </div>
+        </div>
+        <div id="page2">
+            <div id="scroller">
+                <div id="scroller-in">
+                    <h4>Home</h4>
+                    <h4>Character</h4>
+                    <h4>Gym Batches</h4>
+                    <h4>Pokemon Type</h4>
+                    <h4>Leagues</h4>
+                </div>
+                <div id="scroller-in">
+                    <h4>Home</h4>
+                    <h4>Character</h4>
+                    <h4>Gym Batches</h4>
+                    <h4>Pokemon Type</h4>
+                    <h4>Leagues</h4>
+                </div>
+                <div id="scroller-in">
+                    <h4>Home</h4>
+                    <h4>Character</h4>
+                    <h4>Gym Batches</h4>
+                    <h4>Pokemon Type</h4>
+                    <h4>Leagues</h4>
+                </div>
+            </div>
+            <div id="aboutUs">
+                <img src="./Source/Chimchar.png">
+                <div id="about-us-in">
+                    <h3>About Us</h3>
+                    <p>Pokémon became one of the most successful video game franchises in the world, second only to Nintendo's Super Mario Bros. The original Pokémon is a role-playing game based around building a small team of monsters to battle other monsters in a quest to become the best.</p>
+
+                </div>
+                <img src="./Source/Yellow charmandor.jpg">
+            </div>
+            <div id="cards-container">
+                <div class="card" id="card1">
+                    <div class="overlay">
+                        <h4>Strongest Trainer</h4>
+                        <p>There are many trainers in Pokemon, but some are considered the best. In Pokemon history Ash Ketchum is the best trainer in the pokemon world.</p>
+                    </div>
+                </div>
+                <div class="card" id="card2">
+                    <div class="overlay">
+                        <h4>Strongest Pokemon</h4>
+                        <p>It greatly depends on factors such as the Pokemon's type, abilities, level, and individual stats. However, some of the strongest Pokemon include Mewtwo, Charizard.</p>
+                    </div>
+                </div>
+                <div class="card" id="card3">
+                    <div class="overlay">
+                        <h4>Best Gym Trainer</h4>
+                        <p>The best gym trainers are those who have a deep understanding of the game's mechanics and are able to effectively train their Pokemon to become powerful and versatile.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="page3-head">
+            <img id="colon1" src="./Source/Quote 6.png">
+            <h2>Strongest Creature In Pokemon World</h2>
+            <img id="colon2" src="./Source/Quote 9.png">
+        </div>
+        <div id="page3">
+            <i class="fa-solid fa-angle-left"></i>
+                <div class="slide">
+                    <div class="item" style="background-image: url(./Source/Pokemon\ batch\ 1.jpg);">
+                        <div class="content">
+                            <div class="mov-name">Charizard</div>
+                            <div class="descrip">In the vast world of Pokemon, Charizard stands out as one of the most beloved creatures.</div>
+                            <button>See More</button>
+                        </div>
+                    </div>
+
+                    <div class="item" style="background-image: url(./Source/Pokemon\ batch\ 2.jpg);">
+                        <div class="content">
+                            <div class="mov-name">Mewtwo</div>
+                            <div class="descrip">The human sacrificed himself, to save the Pokemon. I pitted them against each other, but not until they set aside their differences did I see the true power they all share deep inside. ...</div>
+                            <button>See More</button>
+                        </div>
+                    </div>
+
+                    <div class="item" style="background-image: url(./Source/Pokemon\ batch\ 3.webp);">
+                        <div class="content">
+                            <div class="mov-name">Gengar</div>
+                            <div class="descrip">It evolves from Haunter when traded or when exposed to a Linking Cord. It is the final form of Gastly.</div>
+                            <button>See More</button>
+                        </div>
+                    </div>
+
+                    <div class="item" style="background-image: url(./Source/Pokemon\ batch\ 4.avif);">
+                        <div class="content">
+                            <div class="mov-name">Giratina</div>
+                            <div class="descrip">Giratina is a Legendary Ghost/Dragon-type Pokémon. Giratina is the Version Mascot for Pokémon Platinum. </div>
+                            <button>See More</button>
+                        </div>
+                    </div>
+
+                    <div class="item" style="background-image: url(./Source/Pokemon\ batch\ 5.webp);">
+                        <div class="content">
+                            <div class="mov-name">Groudon</div>
+                            <div class="descrip">The Ground type Legendary Pokémon called Groudon is Kyogre's rival and another member of the Weather Trio. </div>
+                            <button>See More</button>
+                        </div>
+                    </div>
+
+                    <div class="item" style="background-image: url(./Source/Pokemon\ batch\ 6.jpg);">
+                        <div class="content">
+                            <div class="mov-name">Gyarados</div>
+                            <div class="descrip">A single Gyarados has enough destructive power to totally annihilate even a major city. Gyarados is attracted to violence, and tends to appear when there is a world conflict or war.</div>
+                            <button>See More</button>
+                        </div>
+                    </div>
+
+                    <div class="item" style="background-image: url(./Source/Pokemon\ batch\ 7.jpg);">
+                        <div class="content">
+                            <div class="mov-name">Psyduck</div>
+                            <div class="descrip">When the headache gets too bad, its brain cells awaken, allowing it to use strong psychic powers.</div>
+                            <button>See More</button>
+                        </div>
+                    </div>
+                </div>
+            <i class="fa-solid fa-angle-right"></i>
+        </div>
+        <div class="bar">
+            <!-- <div id="gooey"></div> -->
+            <div id="green-div">
+                <img src="./Source/doted Image.png">
+                <div id="poke-bar">
+                    <h4>Pokemon Detail Bar...</h4>
+                    <p>There are currently 36 unique typings as of Generation IX. Unique types are types that are exclusive to one Pokémon or its evolutionary line.</p>
+                </div>
+                <img src="./Source/doted Image.png">
+            </div>
+            <div id="slider-container">
+                <i class="fa-solid fa-angle-left"></i>
+                <div id="wrapper">
+                   <!-- Image 1 -->
+                    <div class="image-content">
+
+                        <div class="card-image">
+                            <span class="rankss">009</span>
+                            <img class="card-img" src="./Source/009.png">
+                        </div>
+
+                        <div class="overlays">
+                            <div class="name">
+                                <span class="poke-name">Blastoise</span>
+                                <span class="rank">009</span>
+                            </div>
+                            <div class="types">
+                                <span class="type">Type</span>
+                                <button class="type-ans" style="background-color: lightskyblue;">Water</button>
+                            </div>
+                            <div class="abilityes">
+                                <span class="ability">Ability</span>
+                                <span class="ability-ans">Torrent</span>
+                            </div>
+                        </div>
+                        
+                    </div>
+                    <!-- Image 2 -->
+                    <div class="image-content">
+
+                        <div class="card-image">
+                            <span class="rankss">065</span>
+                            <img class="card-img" src="./Source/065.png">
+                        </div>
+
+                        <div class="overlays">
+                            <div class="name">
+                                <span class="poke-name">Alakazam</span>
+                                <span class="rank">065</span>
+                            </div>
+                            <div class="types">
+                                <span class="type">Type</span>
+                                <button class="type-ans" style="background-color: rgb(184, 184, 67)">Psychic</button>
+                            </div>
+                            <div class="abilityes">
+                                <span class="ability">Ability</span>
+                                <span class="ability-ans">Synchronize</span>
+                            </div>
+                        </div>
+                        
+                    </div>
+                    <!-- Image 3 -->
+                    <div class="image-content">
+
+                        <div class="card-image">
+                            <span class="rankss">058</span>
+                            <img class="card-img" src="./Source/058.png">
+                        </div>
+
+                        <div class="overlays">
+                            <div class="name">
+                                <span class="poke-name">Growlithe</span>
+                                <span class="rank">058</span>
+                            </div>
+                            <div class="types">
+                                <span class="type">Type</span>
+                                <button class="type-ans" style="background-color: orange">Fire</button>
+                            </div>
+                            <div class="abilityes">
+                                <span class="ability">Ability</span>
+                                <span class="ability-ans">Flash Fire</span>
+                            </div>
+                        </div>
+                        
+                    </div>
+                    <!-- Image 4 -->
+                    <div class="image-content">
+
+                        <div class="card-image">
+                            <span class="rankss">610</span>
+                            <img class="card-img" src="./Source/610.png">
+                        </div>
+
+                        <div class="overlays">
+                            <div class="name">
+                                <span class="poke-name">Axew</span>
+                                <span class="rank">610</span>
+                            </div>
+                            <div class="types">
+                                <span class="type">Type</span>
+                                <button class="type-ans" style="background-color: greenyellow">Dragon</button>
+                            </div>
+                            <div class="abilityes">
+                                <span class="ability">Ability</span>
+                                <span class="ability-ans">Rivalry</span>
+                            </div>
+                        </div>
+                        
+                    </div>
+                    <!-- Image 5 -->
+                    <div class="image-content">
+
+                        <div class="card-image">
+                            <span class="rankss">074</span>
+                            <img class="card-img" src="./Source/074.png">
+                        </div>
+
+                        <div class="overlays">
+                            <div class="name">
+                                <span class="poke-name">Geodude</span>
+                                <span class="rank">074</span>
+                            </div>
+                            <div class="types">
+                                <span class="type">Type</span>
+                                <button class="type-ans" style="background-color: grey">Rock</button>
+                            </div>
+                            <div class="abilityes">
+                                <span class="ability">Ability</span>
+                                <span class="ability-ans">Rock Head</span>
+                            </div>
+                        </div>
+                        
+                    </div>
+                    <!-- Image 6 -->
+                    <div class="image-content">
+
+                        <div class="card-image">
+                            <span class="rankss">099</span>
+                            <img class="card-img" src="./Source/099.png">
+                        </div>
+
+                        <div class="overlays">
+                            <div class="name">
+                                <span class="poke-name">Kingler</span>
+                                <span class="rank">099</span>
+                            </div>
+                            <div class="types">
+                                <span class="type">Type</span>
+                                <button class="type-ans" style="background-color: lightseagreen">Water</button>
+                            </div>
+                            <div class="abilityes">
+                                <span class="ability">Ability</span>
+                                <span class="ability-ans">Shell Armor</span>
+                            </div>
+                        </div>
+                        
+                    </div>
+                    <!-- Image 7 -->
+                    <div class="image-content">
+
+                        <div class="card-image">
+                            <span class="rankss">253</span>
+                            <img class="card-img" src="./Source/253.png">
+                        </div>
+
+                        <div class="overlays">
+                            <div class="name">
+                                <span class="poke-name">Grovyle</span>
+                                <span class="rank">253</span>
+                            </div>
+                            <div class="types">
+                                <span class="type">Type</span>
+                                <button class="type-ans" style="background-color: greenyellow">Grass</button>
+                            </div>
+                            <div class="abilityes">
+                                <span class="ability">Ability</span>
+                                <span class="ability-ans">Overgrow</span>
+                            </div>
+                        </div>
+                        
+                    </div>
+                    <!-- Image 8 -->
+                    <div class="image-content">
+
+                        <div class="card-image">
+                            <span class="rankss">056</span>
+                            <img class="card-img" src="./Source/056.png">
+                        </div>
+
+                        <div class="overlays">
+                            <div class="name">
+                                <span class="poke-name">Mankey</span>
+                                <span class="rank">056</span>
+                            </div>
+                            <div class="types">
+                                <span class="type">Type</span>
+                                <button class="type-ans" style="background-color: pink">Fighting</button>
+                            </div>
+                            <div class="abilityes">
+                                <span class="ability">Ability</span>
+                                <span class="ability-ans">Vital Spirit</span>
+                            </div>
+                        </div>
+                        
+                    </div>
+                    <!-- Image 9 -->
+                    <div class="image-content">
+
+                        <div class="card-image">
+                            <span class="rankss">017</span>
+                            <img class="card-img" src="./Source/017.png">
+                        </div>
+
+                        <div class="overlays">
+                            <div class="name">
+                                <span class="poke-name">Pidgeotto</span>
+                                <span class="rank">017</span>
+                            </div>
+                            <div class="types">
+                                <span class="type">Type</span>
+                                <button class="type-ans" style="background-color: peachpuff">Flying</button>
+                            </div>
+                            <div class="abilityes">
+                                <span class="ability">Ability</span>
+                                <span class="ability-ans">Keen Eye</span>
+                            </div>
+                        </div>
+                        
+                    </div>
+                    <!-- Image 10 -->
+                    <div class="image-content">
+
+                        <div class="card-image">
+                            <span class="rankss">127</span>
+                            <img class="card-img" src="./Source/127.png">
+                        </div>
+
+                        <div class="overlays">
+                            <div class="name">
+                                <span class="poke-name">Pinsir</span>
+                                <span class="rank">127</span>
+                            </div>
+                            <div class="types">
+                                <span class="type">Type</span>
+                                <button class="type-ans" style="background-color: grey">Bug</button>
+                            </div>
+                            <div class="abilityes">
+                                <span class="ability">Ability</span>
+                                <span class="ability-ans">Hyper Cutter</span>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+                <i class="fa-solid fa-angle-right"></i>
+            </div>
+        </div>
+        <div id="page4">
+            <div id="gooey"></div>
+            <div id="imagesbar4">
+                <img id="organatoo" src="./Source/Oranguto right side image.png" alt="">
+                <img id="pokeball" src="./Source/PokeballTransparent.png" alt="">
+                <img id="charizardRight" src="./Source/Charizard right side.png" alt="">
+            </div>
+            <h1>Dragon Bar</h1>
+        </div>
+        <div class="footer-bottom">
+            <p>Copyright &copy; All Right Reserved | Designed <span>By Dushyant Sharma</span> 2024</p>
+        </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js" integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js" integrity="sha512-onMTRKJBKz8M1TnqqDuGBlowlH0ohFzMXYRNebz+yOcc5TQr/zAKsthzhuv0hiyUKEiQEQXEynnXCvNTOk50dg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <!-- <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script> -->
+    <script src="./app.js"></script>
+</body>
+</html>
